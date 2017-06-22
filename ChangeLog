@@ -1,0 +1,645 @@
+commit 39681b9deb4eb7246496890dbc61f3bee21ee490
+Author: geekerlw <geekerlw@gmail.com>
+Date:   Thu Jun 22 16:20:01 2017 +0800
+
+    change debian default source rules
+    
+    Signed-off-by: geekerlw <geekerlw@gmail.com>
+
+commit 99d135fdcd0709cde5a128c371c33b0f807fe8d9
+Author: geekerlw <geekerlw@gmail.com>
+Date:   Thu Jun 22 16:18:22 2017 +0800
+
+    change source format to native
+    
+    Signed-off-by: geekerlw <geekerlw@gmail.com>
+
+commit 550bde45ec72112aef1283ee7818db27623459ed
+Author: geekerlw <geekerlw@gmail.com>
+Date:   Thu Jun 22 16:17:31 2017 +0800
+
+    remove none use ex files in debian
+    
+    Signed-off-by: geekerlw <geekerlw@gmail.com>
+
+commit 8f9628e3727d6a623ffebab738b5b33da3e024d7
+Author: geekerlw <geekerlw@gmail.com>
+Date:   Thu Jun 22 16:16:34 2017 +0800
+
+    fix current depends
+    
+    Signed-off-by: geekerlw <geekerlw@gmail.com>
+
+commit af3a2eedc426b89e234636f32d98b994b93cd27f
+Author: Jacob Chen <jacob-chen@iotwrt.com>
+Date:   Mon Jun 19 15:54:16 2017 +0800
+
+    mali: armhf: midgard t7xx: include opencl for fbdev mali
+    
+    Signed-off-by: Jacob Chen <jacob-chen@iotwrt.com>
+
+commit 5afe990ed422e58e614b4f5598b2365278ceffac
+Author: Jacob Chen <jacob-chen@iotwrt.com>
+Date:   Fri Jun 16 17:41:58 2017 +0800
+
+    include: add fbdev header
+    
+    Signed-off-by: Jacob Chen <jacob-chen@iotwrt.com>
+
+commit 6529691b6a61e816e951c96904f4c39cbb033fbe
+Author: Jacob Chen <jacob-chen@iotwrt.com>
+Date:   Fri Jun 16 17:25:58 2017 +0800
+
+    build: remove arm64 build
+    
+    no plan to maintain arm64
+    
+    Signed-off-by: Jacob Chen <jacob-chen@iotwrt.com>
+
+commit c12da9b599c59c29adabef9a09a7b0fd08cf50bb
+Author: Jacob Chen <jacob-chen@iotwrt.com>
+Date:   Fri Jun 16 17:21:18 2017 +0800
+
+    rename lib32 to lib
+    
+    no need to use lib32....
+    
+    Signed-off-by: Jacob Chen <jacob-chen@iotwrt.com>
+
+commit b02ed996c913a0ef55a1862fa7172a4ffb5f2c9b
+Author: Jacob Chen <jacob-chen@iotwrt.com>
+Date:   Fri Jun 16 17:12:44 2017 +0800
+
+    mali: armhf: add fbdev-dmabuf mali
+    
+    Signed-off-by: Jacob Chen <jacob-chen@iotwrt.com>
+
+commit 17cc7abb161c7828635ec61ed5bc970203440a2d
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Tue May 16 17:02:24 2017 +0800
+
+    debian: pkgconfig: use Mali as mali library name
+    
+    It only effects the pkgconfig file. As Jacob prefer that
+    style, I decided to follow him.
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit bcd222d4de0d39483aa44804c86ea34f4674052a
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Tue May 16 17:01:12 2017 +0800
+
+    pkgconfig: add new pkgconfig for wayland-client
+    
+    Not all the Mali binary files support Wayland actually.
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit 291325011d17762855a516dd8e4486d4291c620a
+Author: Jacob Chen <jacob-chen@iotwrt.com>
+Date:   Mon May 8 18:06:00 2017 +0800
+
+    mali: arm64: update mali450 gbm
+    
+    Signed-off-by: Jacob Chen <jacob-chen@iotwrt.com>
+
+commit 863a77f74aa4aab14f43bb81c5b3967c69b9af32
+Author: Jacob Chen <jacob2.chen@rock-chips.com>
+Date:   Wed Apr 12 14:22:59 2017 +0800
+
+    debian: remove dev package depend
+    
+    Change-Id: Ie10437528f097615a831fe611e0472c3fe50323b
+    Signed-off-by: Jacob Chen <jacob2.chen@rock-chips.com>
+
+commit 41a3e9ae1369e2e497e5c11c4c31c8fe7f4afafc
+Author: Hans Yang <yhx@rock-chips.com>
+Date:   Tue Apr 11 17:13:12 2017 +0800
+
+    mali: update lib32mali-rk-utgard-2th-r7p0.links
+    
+    Signed-off-by: Hans Yang <yhx@rock-chips.com>
+
+commit 9a8765a5e7701c92b8a8a80f87eee398cdbf6d01
+Author: Hans Yang <yhx@rock-chips.com>
+Date:   Tue Apr 11 17:03:37 2017 +0800
+
+    mali: update mali450 lib32mali-rk-utgard-2th-r7p0.links
+    
+    Signed-off-by: Hans Yang <yhx@rock-chips.com>
+
+commit 1c76e50a8140831e61ee31b228f6f3b417bd7731
+Author: Jacob Chen <jacob-chen@iotwrt.com>
+Date:   Tue Apr 11 16:12:16 2017 +0800
+
+    mali: update all rk3399 mali
+    
+    add opencl support
+    
+    Signed-off-by: Jacob Chen <jacob-chen@iotwrt.com>
+
+commit de2bbcf1dfdd49dceda594a6f1ff84d5eb3fe4a6
+Author: Jacob Chen <jacob-chen@iotwrt.com>
+Date:   Tue Apr 11 09:43:27 2017 +0800
+
+    mali: rename libmali midgard 4th r13p0 wayland
+    
+    Signed-off-by: Jacob Chen <jacob-chen@iotwrt.com>
+
+commit 6a6df1274f416bdced8e31b5a5e67a1ea1cdf577
+Author: Jacob Chen <jacob-chen@iotwrt.com>
+Date:   Tue Apr 11 08:37:19 2017 +0800
+
+    mali: rename libmali midgard 4th r13p0 gbm
+    
+    To keep same name style
+    
+    Signed-off-by: Jacob Chen <jacob-chen@iotwrt.com>
+
+commit ac66709e9281a4b7a8a4e670a2b2506a282d5e2f
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Mon Apr 10 14:52:19 2017 +0800
+
+    mali: add mali midgard 4th r13p0 for GBM
+    
+    I don't think it would be used in system installer, but I just
+    keep it in repo for someone need it.
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit 9e8cd208200107e344ac0e9212d93be18f2e881d
+Merge: 94a31ee c93ddec
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Fri Apr 7 09:28:21 2017 +0800
+
+    Merge remote-tracking branch 'github/rockchip' into rockchip
+
+commit 94a31ee9e57d677659158368317aa4353bca48ad
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Fri Apr 7 09:24:38 2017 +0800
+
+    mali: add Mali Midgard 4th r13p0 amd64 binary
+    
+    It will be used for wayland and gbm, with the OpenCL support.
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit c93ddec8d156acb32ceae41142e5a573f5386f77
+Author: Jacob Chen <jacob-chen@iotwrt.com>
+Date:   Wed Apr 5 10:38:59 2017 +0800
+
+    mali: fix mali450 x11 error
+    
+    Signed-off-by: Jacob Chen <jacob-chen@iotwrt.com>
+
+commit a5235bfad32acedcbe8352bc91923393234429a1
+Author: Jacob Chen <jacob-chen@iotwrt.com>
+Date:   Fri Mar 31 13:12:21 2017 +0800
+
+    debian: fix utgard mali issue
+    
+    Signed-off-by: Jacob Chen <jacob-chen@iotwrt.com>
+
+commit 91a41d3a9164f08fb03933bfae72d48bcec17279
+Author: Jacob Chen <jacob-chen@iotwrt.com>
+Date:   Tue Mar 28 09:27:39 2017 +0800
+
+    debian: add rk3328 mali rules
+    
+    Signed-off-by: Jacob Chen <jacob-chen@iotwrt.com>
+
+commit 4daa7f0dddefef77973478d87c9f2caca5a105ab
+Merge: 38045af b6c0bdc
+Author: 陈豪 | Jacob Chen <jacob-chen@iotwrt.com>
+Date:   Fri Mar 24 23:06:52 2017 +0800
+
+    Merge pull request #4 from sakamoto-poteko/rockchip
+    
+    typo fixed: vender -> vendor
+
+commit 38045afd69e8ac6396640a6f1fedf688121ed2a7
+Author: Jacob Chen <jacob-chen@iotwrt.com>
+Date:   Fri Mar 24 09:43:50 2017 +0800
+
+    mali: add mali450 libraries
+    
+    Signed-off-by: Jacob Chen <jacob-chen@iotwrt.com>
+
+commit b6c0bdc4795066d2fcf8c1813f1c5595541221ac
+Author: Afa Cheng <afa@renaissancerobot.com>
+Date:   Fri Mar 24 05:10:10 2017 +0800
+
+    typo fixed: vender -> vendor
+
+commit 2c166acfca933991e05931acd12837c0aa9cb5db
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Fri Mar 24 00:20:06 2017 +0800
+
+    pkgconfig: add new pkgconfig for mali
+    
+    Some symbols are only supported by arm mali not the mesa,
+    I think I should offer a way for those application need to
+    link to arm mali not mesa to detect the system.
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit 038791a569daedf44f783a605bbd0f02f25ec541
+Author: Jacob Chen <jacob-chen@iotwrt.com>
+Date:   Tue Mar 14 09:41:54 2017 +0800
+
+    add binary license
+    
+    Signed-off-by: Jacob Chen <jacob-chen@iotwrt.com>
+
+commit 38a3bf0eb981ef8a24c73cea33a5e4b6b42a4a79
+Author: Jacob Chen <jacob2.chen@rock-chips.com>
+Date:   Fri Mar 10 16:43:30 2017 +0800
+
+    mali: update utgard gbm mali
+    
+    Change-Id: I442a569d911d35491ff4de64ed7d713c67c37175
+    Signed-off-by: Jacob Chen <jacob2.chen@rock-chips.com>
+
+commit 5f85a58772d7e4743d62344ba9ef8ceda294e164
+Author: Jacob Chen <jacob-chen@iotwrt.com>
+Date:   Wed Mar 8 11:20:49 2017 +0800
+
+    debian: rename utgard0 to utgard0-r6p0
+    
+    Signed-off-by: Jacob Chen <jacob-chen@iotwrt.com>
+
+commit 22f17fae2ce01b832a4f02fe4f3876374bc9d58e
+Author: Jacob Chen <jacob-chen@iotwrt.com>
+Date:   Mon Feb 27 12:22:42 2017 +0800
+
+    mali: debian: add sw version suffix for utgard
+    
+    Signed-off-by: Jacob Chen <jacob-chen@iotwrt.com>
+
+commit e9cbc6f2bc6e5a3949ab576044d90c42e469efda
+Author: Jacob Chen <jacob-chen@iotwrt.com>
+Date:   Sun Feb 26 19:25:45 2017 +0800
+
+    mali: update libmali for rk3399 wayland
+    
+    Signed-off-by: Jacob Chen <jacob-chen@iotwrt.com>
+
+commit 52f4fa6120c1ce5a41683c014428f9b0dcf36f58
+Author: Jacob Chen <jacob-chen@iotwrt.com>
+Date:   Tue Feb 21 22:57:46 2017 +0800
+
+    mali: update gbm only libmali for t76x
+    
+    Signed-off-by: Jacob Chen <jacob-chen@iotwrt.com>
+
+commit 9e78f8710183b032bccd0c4fd6a785ff1da65fab
+Author: Jacob Chen <jacob2.chen@rock-chips.com>
+Date:   Tue Jan 17 16:08:51 2017 +0800
+
+    mali: update opencl enabled midgard r13 mali
+    
+    Change-Id: I101036a892f529d49803c62397a71fad2b6d669e
+    Signed-off-by: Jacob Chen <jacob2.chen@rock-chips.com>
+
+commit 6a5b77efa72469ade032a2c298d542909fe9312b
+Author: yuyz <yuyz@rock-chips.com>
+Date:   Mon Jan 16 09:10:02 2017 +0000
+
+    debian: update to 1.5-4
+    
+    Signed-off-by: yuyz <yuyz@rock-chips.com>
+
+commit 3aa4bf03f3aadbde96c0390e959069f1e1fda5a6
+Author: yuyz <yuyz@rock-chips.com>
+Date:   Mon Jan 16 06:30:27 2017 +0000
+
+    mali: add midgard r13p0 for rk3399 32bit
+    
+    Signed-off-by: yuyz <yuyz@rock-chips.com>
+
+commit 450ca14c49b731ae6ecd7089234e9570ef28a547
+Author: Jacob Chen <jacob2.chen@rock-chips.com>
+Date:   Fri Jan 13 15:03:16 2017 +0800
+
+    mali: add wayland lib for midgard  r13p0 r0p0
+    
+    Change-Id: Ic48346071c5c38f2ab3377ace4a953ec9298a3b7
+    Signed-off-by: Jacob Chen <jacob2.chen@rock-chips.com>
+
+commit cc02f6c849585ccf2abd780ba7635a7abad2080c
+Author: Jacob Chen <jacob2.chen@rock-chips.com>
+Date:   Thu Jan 12 09:31:51 2017 +0800
+
+    debian: update to 1.5-3
+    
+    Change-Id: I1b98dde4b585872f952758bb5b7dda95cfe7b515
+    Signed-off-by: Jacob Chen <jacob2.chen@rock-chips.com>
+
+commit fdb7da8cce91f0c5c06e3a9f492e9dab80289bf4
+Author: Jacob Chen <jacob2.chen@rock-chips.com>
+Date:   Thu Jan 12 09:31:21 2017 +0800
+
+    mali: add midgard r13p0 r0p0
+    
+    Change-Id: I52f973b82bf6c30e0c7adc33c594473f1a8c6e61
+    Signed-off-by: Jacob Chen <jacob2.chen@rock-chips.com>
+
+commit c56e8194aea51a823a45f6c7565190f7ab8093a5
+Author: Jacob Chen <jacob2.chen@rock-chips.com>
+Date:   Wed Jan 11 16:19:17 2017 +0800
+
+    mali: correct midgard r12
+    
+    Change-Id: Idddda8bab2c704fd66e14ba5838a3aa1aed910ff
+
+commit 07385264e0849371c33f38da0e73e097e704ce5d
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Fri Dec 23 10:13:46 2016 +0800
+
+    build: debian: install 32bit and 64bit library seperately
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit 36b39d5282ec2c49ca65d44e3d5fec914488c834
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Fri Dec 23 10:14:36 2016 +0800
+
+    mali: put midgard 4th 64bit version back
+    
+    It was removed by accident.
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit a38072cdfc4bcbb796c0fef9aa8d304a079c42cd
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Fri Dec 23 10:11:55 2016 +0800
+
+    mali: rename the midgard 4th 32bit with a prefix
+    
+    In order to prevent conflict in installation.
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit d40b9a9738e740a0ec48fa7a9f5f782233876103
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Thu Dec 22 11:40:58 2016 +0800
+
+    debian: update to 1.5-2
+    
+    In this version, we intend to offer all the various mali library
+    for different kernel driver and target platform.
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit 8c67ccd8ec0a60e563886277a8eed921acd06fba
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Thu Dec 22 11:37:51 2016 +0800
+
+    build: debian: install all mali version libraries
+    
+    In a building system, we should install all the library for
+    the target platform.
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit 6d15b93affd9476a82d9502476eee635cbb24784
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Thu Dec 22 11:37:19 2016 +0800
+
+    .gitignore: ignore more debian build files
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit b7fd04b718ca853119605d6ca64f64d1251c442b
+Author: Jacob Chen <jacob2.chen@rock-chips.com>
+Date:   Thu Dec 22 10:34:51 2016 +0800
+
+    mali: add version info
+    
+    Change-Id: I9bbc7a28099c5d67fd8a70a24f77fba5cba2b8c4
+    Signed-off-by: Jacob Chen <jacob2.chen@rock-chips.com>
+
+commit d7a97041119c0225cb2aee8224f0f2bf945bed8e
+Author: Jacob Chen <jacob2.chen@rock-chips.com>
+Date:   Wed Dec 21 14:03:02 2016 +0800
+
+    debian: add conflicts for r1p0
+    
+    Change-Id: I13050249db39b2b756e3455101ea1032c53409f2
+    Signed-off-by: Jacob Chen <jacob2.chen@rock-chips.com>
+
+commit 07de494cadab717e1350fb2ec1499e77fc33ece3
+Author: rk <rk@rock-chips.com>
+Date:   Wed Dec 14 15:11:52 2016 +0800
+
+    mali: add midgard r1p0
+    
+    Signed-off-by: rk <rk@rock-chips.com>
+
+commit 3539436569083bec5e0ded3554cfec7ded4f9ecc
+Author: rk <rk@rock-chips.com>
+Date:   Thu Nov 17 15:43:15 2016 +0800
+
+    debian: correct depend for dev
+    
+    Signed-off-by: rk <rk@rock-chips.com>
+
+commit 9322cc228bb42c0d6ee2ac5402de479d615ef7b6
+Author: rk <rk@rock-chips.com>
+Date:   Thu Nov 17 14:15:06 2016 +0800
+
+    mali: add rk3399 arm64 mali
+
+commit c9f796efb22bde12588eb5cd2d5aac1a81fdf472
+Author: rk <rk@rock-chips.com>
+Date:   Fri Nov 11 16:37:04 2016 +0800
+
+    debian: correct sysconfdir for debian
+
+commit a19415c64abcf3c3917fd7d5cb03402b33c69d07
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Fri Oct 14 17:19:25 2016 +0800
+
+    Revert "mali: upgrade Mali midgard library to t76x-r12p0"
+    
+    This reverts commit 0df2d0bd2e588e7b30f07e6935bf9cb28810dab2.
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit f5f49ac48f99e6fa0df7dd39e2465dbc9ac2d41d
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Wed Oct 12 09:41:59 2016 +0800
+
+    debian: add new package for midgard 4th used at RK3399 platform
+    
+    I don't know how to use update-alternative in debian, it is ok
+    as we don't have too much library to manage, but it would be
+    a problem in the future.
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit 34a77f058c152a15e4bdba1c724604e03654dd71
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Wed Oct 12 09:27:56 2016 +0800
+
+    mali: downgrade the mali library for rk3399 to r9p0
+    
+    In order to match the driver used in develop-4.4 branch, the previous
+    one is r12p0.
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit b77a6cc909430587042addf6cdcad45d24f1ba29
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Wed Aug 31 17:07:04 2016 +0800
+
+    mali: add mali library used for the Mali midgard 4th gen
+    
+    This library would be used for RK3399 platform.
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit d9680e8ee080429621e6e428dba3af0a283771c0
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Mon Aug 15 17:28:53 2016 +0800
+
+    debian: install link for opencl support in mali midgrade
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit 0df2d0bd2e588e7b30f07e6935bf9cb28810dab2
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Mon Aug 15 17:27:31 2016 +0800
+
+    mali: upgrade Mali midgard library to t76x-r12p0
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit e854949b69b4a774cc1518b7b44dac2110f559be
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Tue Aug 9 09:33:01 2016 +0800
+
+    debian: install OpenCL
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit 9519faa8c9ca893caef15ff2105851f279798bb3
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Tue Aug 9 09:32:02 2016 +0800
+
+    build: install OpenCL information
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit 8d9eee1031da7a7205b7be3d012c5024616ca8f5
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Tue Aug 9 09:31:08 2016 +0800
+
+    mali: update library with OpenCL support for Mali midgard
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit 9bbe064eac96495078650a3f8697f6f6f43b0c9e
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Tue Aug 9 09:01:06 2016 +0800
+
+    header: add opencl header
+    
+    But it won't be installed, I prefer to use the header offered
+    by debian.
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit cef8f6b6dbd6a34ae1bb4784f52723678259283c
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Tue Jul 26 14:02:36 2016 +0800
+
+    debian: support both Mali 400 and Mali Midgard
+    
+    It would be better if I could use alternative mechanism, but I
+    can't understand it this time.
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit 46c40cc183d402732a79d44772a2df3cd36cf04a
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Tue Jul 26 11:40:10 2016 +0800
+
+    mali: add library for mali Utgard
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit 31840c9b48e0ff5fe795024fabdf7086e8c20e95
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Tue Jul 26 11:34:49 2016 +0800
+
+    rename mali for rk3288 to GPU architecture name
+    
+    It would looks better for different platforms which use the
+    same GPU architechture.
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit 0579ecd862a933a0bb02611501af6e4a6f93b4d4
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Mon Jul 18 15:33:24 2016 +0800
+
+    rename the mali library for rk3288 with SoC model suffix
+    
+    The mali libraries used in Rockchip serial could be various,
+    it is necessary to name it with the proper suffix.
+
+commit 88da160ca9d3f779a0854aad2ba9f4c141ca19ba
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Mon Jul 18 13:50:13 2016 +0800
+
+    use the header from graphics team
+    
+    It may not different from mesa project. But just it would look
+    better.
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit cab2f164a23c2ca6b036df35d79a02193ff5ab94
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Mon Jul 18 11:11:01 2016 +0800
+
+    fixup for minor bugs found at build time
+    
+    1. install path
+    2. debian rules for cmake
+    3. some typo
+
+commit 33e8c9db4494e4d228d45557b8f5fee966bc41b1
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Mon Jul 18 10:45:30 2016 +0800
+
+    add multiarch support for pkgconfig files
+    
+    The pkgconfig are just template in the source, the cmake would
+    generate the final pkgconfig files.
+
+commit 0ec33bd5e8bb5997e868de5dfa5b360e8e35869c
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Mon Jul 18 10:44:40 2016 +0800
+
+    use cmake as new build system and add gitignore
+    
+    It is time to drop old Makefile.
+
+commit ca6dfebf62b7cbe00a7ded2ed6cea13ccf38f6c8
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Mon Jul 18 10:43:45 2016 +0800
+
+    add header files
+    
+    Those header files comes from mesa project. It would be better
+    to use the mali export version instead.
+    
+    Signed-off-by: Randy Li <randy.li@rock-chips.com>
+
+commit 5d92acec4e8f8ddcc37eeb20b3cd85fe05be8f23
+Author: Randy Li <randy.li@rock-chips.com>
+Date:   Thu Jul 14 18:47:17 2016 +0800
+
+    first commit

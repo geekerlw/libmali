@@ -1,3 +1,10 @@
+libmali-rk (1.5-4-0ubuntu1) xenial; urgency=medium
+
+  [Steven Lee]
+  * debian: corrent build depends
+
+ -- Steven Lee <geekerlw@gmail.com>  Thu, 22 Jun 2017 16:50:38 +0800
+
 libmali-rk (1.5-4) testing; urgency=medium
 
   * mali: add midgard r13p0 for rk3399 32bit
